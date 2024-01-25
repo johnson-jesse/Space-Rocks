@@ -17,4 +17,4 @@ else {
 
 instance_create_layer(xx, yy, "Instances", obj_asteroid)
 
-alarm[0] = game_get_speed(gamespeed_fps)
+alarm[0] = TIME

@@ -36,7 +36,7 @@
   },
   "sequenceId": null,
   "views": [
-    {"hborder":250,"hport":1000,"hspeed":-1,"hview":500,"inherit":false,"objectId":{"name":"obj_ship","path":"objects/obj_ship/obj_ship.yy",},"vborder":250,"visible":true,"vspeed":-1,"wport":1000,"wview":500,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":250,"hport":1000,"hspeed":-1,"hview":500,"inherit":false,"objectId":null,"vborder":250,"visible":false,"vspeed":-1,"wport":1000,"wview":500,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
@@ -48,7 +48,7 @@
   "viewSettings": {
     "clearDisplayBuffer": true,
     "clearViewBackground": false,
-    "enableViews": true,
+    "enableViews": false,
     "inheritViewSettings": false,
   },
   "volume": 1.0,

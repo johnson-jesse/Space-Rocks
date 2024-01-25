@@ -7,10 +7,10 @@ switch(room) {
 	
 	case rm_win:
 		draw_set_halign(fa_center)
-		var _c = c_lime
+		var w = c_lime
 		draw_text_transformed_color(
 			room_width / 2, 200, "YOU WON!",
-			3, 3, 0, _c,  _c,  _c, _c, 1
+			3, 3, 0, w,  w,  w, w, 1
 		)
 		draw_text(
 			room_width / 2, 300,
@@ -21,10 +21,10 @@ switch(room) {
 	
 	case rm_gameover:
 		draw_set_halign(fa_center)
-		var _c = c_red
+		var o = c_red
 		draw_text_transformed_color(
 			room_width / 2, 150, "GAME OVER",
-			3, 3, 0, _c,  _c,  _c, _c, 1
+			3, 3, 0, o,  o,  o, o, 1
 		)
 		draw_text(
 			room_width / 2, 250,
@@ -39,10 +39,10 @@ switch(room) {
 	
 	case rm_start:
 		draw_set_halign(fa_center)
-		var _c = c_yellow
+		var s = c_yellow
 		draw_text_transformed_color(
 			room_width / 2, 100, "SPACE ROCKS FX",
-			3, 3, 0, _c,  _c,  _c, _c, 1
+			3, 3, 0, s,  s, s, s, 1
 		)
 		draw_text(
 			room_width / 2, 200,

@@ -38,6 +38,7 @@
     {"id":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy",},},
     {"id":{"name":"spr_asteroid_med","path":"sprites/spr_asteroid_med/spr_asteroid_med.yy",},},
     {"id":{"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},},
+    {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"obj_debris","path":"objects/obj_debris/obj_debris.yy",},},
     {"id":{"name":"snd_hurt","path":"sounds/snd_hurt/snd_hurt.yy",},},
     {"id":{"name":"spr_asteroid_huge","path":"sprites/spr_asteroid_huge/spr_asteroid_huge.yy",},},
@@ -57,6 +58,7 @@
     {"id":{"name":"obj_asteroid","path":"objects/obj_asteroid/obj_asteroid.yy",},},
     {"id":{"name":"fnt_text","path":"fonts/fnt_text/fnt_text.yy",},},
     {"id":{"name":"snd_win","path":"sounds/snd_win/snd_win.yy",},},
+    {"id":{"name":"Macros","path":"scripts/Macros/Macros.yy",},},
     {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
   ],
   "RoomOrderNodes": [

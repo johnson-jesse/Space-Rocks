@@ -21,6 +21,7 @@
     {"name":"rm_gameover","order":3,"path":"rooms/rm_gameover/rm_gameover.yy",},
     {"name":"spr_asteroid_med","order":5,"path":"sprites/spr_asteroid_med/spr_asteroid_med.yy",},
     {"name":"rm_win","order":2,"path":"rooms/rm_win/rm_win.yy",},
+    {"name":"obj_camera","order":5,"path":"objects/obj_camera/obj_camera.yy",},
     {"name":"obj_debris","order":3,"path":"objects/obj_debris/obj_debris.yy",},
     {"name":"snd_hurt","order":3,"path":"sounds/snd_hurt/snd_hurt.yy",},
     {"name":"spr_asteroid_huge","order":6,"path":"sprites/spr_asteroid_huge/spr_asteroid_huge.yy",},
