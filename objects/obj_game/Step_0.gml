@@ -12,6 +12,15 @@ if (keyboard_check_pressed(vk_enter)) {
 }
 
 if (room == rm_game) {
-	if (score >= 1000) room_goto(rm_win)
-	else if (lives <= 0) room_goto(rm_gameover)
+	if (score >= 1000) {
+		room_goto(rm_win)
+		audio_play_sound(snd_win, 1, false)
+		audio_stop_sound(msc_song)
+	}
+	else if (lives <= 0) {
+		room_goto(rm_gameover)
+		audio_play_sound(snd_lose, 1, false)
+		audio_stop_sound(msc_song)
+		
+	}
 }
