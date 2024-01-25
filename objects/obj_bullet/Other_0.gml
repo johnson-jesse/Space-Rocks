@@ -1,2 +1,2 @@
-/// @description Insert description here
+/// @description Cleanup Room
 instance_destroy()

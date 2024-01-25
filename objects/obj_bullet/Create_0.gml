@@ -1,3 +1,3 @@
-/// @description Insert description here
+/// @description Initialization
 
 speed = 6
