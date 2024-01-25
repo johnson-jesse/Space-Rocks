@@ -1,7 +1,6 @@
 /// @description Insert description here
 
 if (room == rm_game) {
-	
 	repeat(6) {
 		var xx = choose(
 			irandom_range(0, room_width * 0.3),
@@ -13,4 +12,6 @@ if (room == rm_game) {
 		)
 		instance_create_layer(xx, yy, "Instances", obj_asteroid)
 	}
+	
+	alarm[0] = game_get_speed(gamespeed_fps)
 }
