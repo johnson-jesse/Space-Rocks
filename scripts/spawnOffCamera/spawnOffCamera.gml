@@ -1,7 +1,6 @@
-/// @function                spawnOffglobal.cameraY(obj, num);
+/// @function                spawnOffcameraY(obj, num);
 /// @param {Asset.GMObject}  obj  The object to spawn
 /// @param {Real}            num  Number of objects to spawn
-
 function spawnOffCamera(obj, num) {
 	var xx,yy
 	var pad = 64

@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description
 switch(room) {
 	case rm_game:
 		draw_text(20, 20, "SCORE: " + string(score))

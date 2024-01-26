@@ -1,4 +1,6 @@
-/// @description Insert description here
+/// @description INIT Override
+event_inherited()
+
 sprite_index = choose(
 	spr_asteroid_small,
 	spr_asteroid_med,
