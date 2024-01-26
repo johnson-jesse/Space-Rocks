@@ -12,8 +12,8 @@ if (keyboard_check(vk_up)) {
 	speed = max(speed, 2)
 }
 
-move_wrap(true, true, sprite_width/2)
-
 if (keyboard_check_pressed(vk_space)) {
 	createBullet(image_angle, bulletSpd, faction)
 }
+
+move_wrap(true, true, sprite_width / 2)

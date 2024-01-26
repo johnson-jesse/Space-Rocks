@@ -14,9 +14,7 @@ if (sprite_index == spr_asteroid_huge) {
 	}
 }
 	
-repeat(10) {
-	instance_create_layer(x, y, "Instances", obj_debris)
-}
+createDebris()
 	
 score += 10
 

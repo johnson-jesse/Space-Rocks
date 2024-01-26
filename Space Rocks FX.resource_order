@@ -55,6 +55,7 @@
     {"name":"snd_die","order":4,"path":"sounds/snd_die/snd_die.yy",},
     {"name":"obj_asteroid","order":1,"path":"objects/obj_asteroid/obj_asteroid.yy",},
     {"name":"spr_starfield_0","order":10,"path":"sprites/spr_starfield_0/spr_starfield_0.yy",},
+    {"name":"createDebris","order":4,"path":"scripts/createDebris/createDebris.yy",},
     {"name":"snd_win","order":1,"path":"sounds/snd_win/snd_win.yy",},
   ],
 }
