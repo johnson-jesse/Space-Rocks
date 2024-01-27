@@ -15,7 +15,7 @@ var inst = collision_line(x, y,
 if (inst != noone) {
 	if (inst.faction != faction) {
 		with(inst) {
-			if (!innumeToLaser) event_perform(ev_other, ev_user1)	
+			if (!immuneToLaser) event_perform(ev_other, ev_user1)	
 		}
 	}
 }

@@ -1,8 +1,9 @@
 /// @description
 lives -= 1
+global.cameraShake = 5
 
 with(obj_game) {
-	alarm[1] = game_get_speed(gamespeed_fps)	
+	alarm[1] = 2 * game_get_speed(gamespeed_fps)	
 }
 
 audio_play_sound(snd_die, 1, false)
