@@ -1,10 +1,10 @@
 /// @description Navigation
 if (keyboard_check(vk_left)) {
-	image_angle += 5	
+	image_angle += 3.5	
 }
 
 if (keyboard_check(vk_right)) {
-	image_angle -= 5	
+	image_angle -= 3.5	
 }
 
 if (keyboard_check(vk_up)) {
@@ -28,3 +28,7 @@ if (keyboard_check_pressed(vk_space)) {
 }
 
 move_wrap(true, true, sprite_width / 2)
+
+if (keyboard_check_pressed(ord("R"))) {
+	room_restart()
+}

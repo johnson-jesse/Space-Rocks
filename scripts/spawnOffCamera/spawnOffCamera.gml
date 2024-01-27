@@ -6,7 +6,7 @@ function spawnOffCamera(obj, num) {
 	var pad = 64
 	
 	repeat(num) {
-		xx = random_range(0 , room_width)
+		xx = random_range(0, room_width)
 		yy = random_range(0, room_height)
 	
 		while(point_in_rectangle(
@@ -16,7 +16,7 @@ function spawnOffCamera(obj, num) {
 			global.cameraX + global.cameraWidth + pad,
 			global.cameraY + global.cameraHeight + pad
 		)) {
-			xx = random_range(0 , room_width)
+			xx = random_range(0, room_width)
 			yy = random_range(0, room_height)
 		}
 	
