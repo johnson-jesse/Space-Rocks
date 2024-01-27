@@ -22,6 +22,7 @@
   "ResourceOrderSettings": [
     {"name":"followTarget","order":2,"path":"scripts/followTarget/followTarget.yy",},
     {"name":"spr_starfield_1","order":9,"path":"sprites/spr_starfield_1/spr_starfield_1.yy",},
+    {"name":"snd_laser","order":6,"path":"sounds/snd_laser/snd_laser.yy",},
     {"name":"createBullet","order":3,"path":"scripts/createBullet/createBullet.yy",},
     {"name":"spr_bullet","order":3,"path":"sprites/spr_bullet/spr_bullet.yy",},
     {"name":"rm_gameover","order":3,"path":"rooms/rm_gameover/rm_gameover.yy",},
@@ -55,7 +56,10 @@
     {"name":"snd_die","order":4,"path":"sounds/snd_die/snd_die.yy",},
     {"name":"obj_asteroid","order":1,"path":"objects/obj_asteroid/obj_asteroid.yy",},
     {"name":"spr_starfield_0","order":10,"path":"sprites/spr_starfield_0/spr_starfield_0.yy",},
+    {"name":"spr_ship_powerups_strip6","order":15,"path":"sprites/spr_ship_powerups_strip6/spr_ship_powerups_strip6.yy",},
     {"name":"createDebris","order":4,"path":"scripts/createDebris/createDebris.yy",},
     {"name":"snd_win","order":1,"path":"sounds/snd_win/snd_win.yy",},
+    {"name":"spr_powerup_strip6","order":16,"path":"sprites/spr_powerup_strip6/spr_powerup_strip6.yy",},
+    {"name":"obj_powerup","order":14,"path":"objects/obj_powerup/obj_powerup.yy",},
   ],
 }
