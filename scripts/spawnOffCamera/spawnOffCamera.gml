@@ -4,7 +4,7 @@
 function spawnOffCamera(obj, num) {
 	var xx,yy
 	var pad = 64
-	
+
 	repeat(num) {
 		xx = random_range(0, room_width)
 		yy = random_range(0, room_height)

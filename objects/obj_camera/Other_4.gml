@@ -24,7 +24,6 @@ if (instance_exists(target)) {
 camera_set_view_pos(view_camera[0], global.cameraX, global.cameraY)
 
 // Display
-
 displayScale = 2
 displayWidth = global.cameraWidth * displayScale
 displayHeight = global.cameraHeight * displayScale
@@ -35,5 +34,8 @@ surface_resize(application_surface, displayWidth, displayHeight)
 
 // GUI
 display_set_gui_size(global.cameraWidth, global.cameraHeight)
-
 alarm[0] = 1
+
+// Instance Creation Order has no effect on ROOM START
+// Using User Event 2 as Game Room Start
+with(obj_game) event_perform(ev_other, ev_user2)
