@@ -1,6 +1,5 @@
 /// @description Spawn 6 Asteroids
 if (room == rm_game) {
-	global.screenShake = 0
 	spawnOffCamera(obj_asteroid, 40)
 	spawnOffCamera(obj_raider, 8)
 	spawnOffCamera(obj_hunter, 5)

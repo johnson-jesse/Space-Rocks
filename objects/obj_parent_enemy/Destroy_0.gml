@@ -1,5 +1,9 @@
 audio_play_sound(snd_die, 1, false)
-createDebris()
+
+var xx = x, yy = y, ib = image_blend
+with(obj_particles) {
+	part_particles_create_color(partSystem, xx, yy, partTypeShipDebris, ib, 10)	
+}
 
 switch(object_index) {
 	case obj_raider: score += 15; global.cameraShake = 3; break;

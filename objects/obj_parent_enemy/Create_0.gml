@@ -7,3 +7,4 @@ image_angle = direction
 
 hp = 1
 originalSpeed = speed
+exhaustCounter = 0
