@@ -54,7 +54,9 @@ function createBullet(dir, spd, fac, typ = -1) {
 			}
 			break
 		case POWERUPS.laser_bullet:
-		
+			audio_play_sound(snd_laser, 1, false)
+			inst = instance_create_layer(x, y, "Instances", obj_laser)
+			initializeBullet(dir, spd, fac, inst)
 			break
 		default:
 			audio_play_sound(snd_zap, 1, false)

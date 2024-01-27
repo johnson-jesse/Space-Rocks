@@ -47,6 +47,7 @@
     {"name":"msc_song","order":5,"path":"sounds/msc_song/msc_song.yy",},
     {"name":"obj_hunter","order":1,"path":"objects/obj_hunter/obj_hunter.yy",},
     {"name":"snd_lose","order":2,"path":"sounds/snd_lose/snd_lose.yy",},
+    {"name":"obj_laser","order":15,"path":"objects/obj_laser/obj_laser.yy",},
     {"name":"rm_start","order":1,"path":"rooms/rm_start/rm_start.yy",},
     {"name":"obj_faction_ally","order":1,"path":"objects/obj_faction_ally/obj_faction_ally.yy",},
     {"name":"obj_parent_enemy","order":2,"path":"objects/obj_parent_enemy/obj_parent_enemy.yy",},

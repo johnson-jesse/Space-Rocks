@@ -67,6 +67,7 @@
     {"id":{"name":"obj_hunter","path":"objects/obj_hunter/obj_hunter.yy",},},
     {"id":{"name":"snd_zap","path":"sounds/snd_zap/snd_zap.yy",},},
     {"id":{"name":"snd_lose","path":"sounds/snd_lose/snd_lose.yy",},},
+    {"id":{"name":"obj_laser","path":"objects/obj_laser/obj_laser.yy",},},
     {"id":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
     {"id":{"name":"obj_faction_ally","path":"objects/obj_faction_ally/obj_faction_ally.yy",},},
     {"id":{"name":"obj_parent_enemy","path":"objects/obj_parent_enemy/obj_parent_enemy.yy",},},

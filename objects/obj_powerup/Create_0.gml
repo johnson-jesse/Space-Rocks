@@ -2,5 +2,6 @@ image_index = irandom_range(0, image_number - 1)
 alarm[0] = 5 * TIME
 image_blend = c_lime
 image_speed = 0
+speed = 0;
 
-image_index = POWERUPS.star_bullets
+image_index = POWERUPS.laser_bullet

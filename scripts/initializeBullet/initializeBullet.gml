@@ -9,7 +9,7 @@ function initializeBullet(dir, spd, fac, ins) {
 
 	with (ins) {
 		direction = dir
-		speed = spd
+		if (object_index == obj_bullet) speed = spd
 		faction = fac
 		creator = who
 		if (faction == FACTIONS.ally) image_blend = c_aqua
