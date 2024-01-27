@@ -4,7 +4,7 @@ if (!point_in_rectangle(
 	global.cameraX,
 	global.cameraY,
 	global.cameraX + global.cameraWidth,
-	global.cameraY + global.cameraY
+	global.cameraY + global.cameraHeight
 )) {
 	instance_destroy()
 }
