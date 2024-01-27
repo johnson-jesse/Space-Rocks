@@ -13,7 +13,7 @@ if (keyboard_check(vk_up)) {
 }
 
 if (keyboard_check_pressed(vk_space)) {
-	createBullet(image_angle, bulletSpd, faction)
+	createBullet(image_angle, bulletSpd, faction, guns)
 }
 
 move_wrap(true, true, sprite_width / 2)

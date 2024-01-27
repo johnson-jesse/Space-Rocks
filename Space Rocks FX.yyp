@@ -46,6 +46,7 @@
     {"id":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy",},},
     {"id":{"name":"spr_asteroid_med","path":"sprites/spr_asteroid_med/spr_asteroid_med.yy",},},
     {"id":{"name":"spr_enemy_brute_strip5","path":"sprites/spr_enemy_brute_strip5/spr_enemy_brute_strip5.yy",},},
+    {"id":{"name":"initializeBullet","path":"scripts/initializeBullet/initializeBullet.yy",},},
     {"id":{"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},},
     {"id":{"name":"obj_raider","path":"objects/obj_raider/obj_raider.yy",},},
     {"id":{"name":"obj_faction_enemy","path":"objects/obj_faction_enemy/obj_faction_enemy.yy",},},
