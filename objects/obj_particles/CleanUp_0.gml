@@ -1,0 +1,5 @@
+part_system_destroy(partSystem)
+part_type_destroy(partTypeExhaust)
+part_type_destroy(partTypeAsteroidDebris)
+part_type_destroy(partTypeShipDebris)
+part_type_destroy(partTypeEnemyExhaust)
